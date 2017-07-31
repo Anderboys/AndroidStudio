@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anderboys.cantarestext.NostrosInfo"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Cantares Tex S.A.C"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.04"
+        android:gravity="center"
+        android:text="CantaresTex es una empresa familiar, orgullosamente peruana, constituida en el año 2017 y dedicada a la fabricación de prendas de vestir en tejido de punto 100% algodón."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Contamos con un moderno complejo industrial, con cinco plantas textiles equipadas con maquinaria de última generación y con personal altamente capacitado que nos permite asegurar la entrega oportuna de nuestros productos a precios competitivos y con calidad."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btncontactenos"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/call"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Conactenos"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold" />
+
+</LinearLayout>
